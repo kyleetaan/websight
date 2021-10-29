@@ -1,0 +1,105 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.logo {
+    height: auto;
+    width: 100px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+
+.header,
+.intro,
+.footer {
+    background-color: #CB997E;
+}
+
+.header {
+    display: flex;
+    margin:0;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.intro {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    gap: 20px;
+    align-content: center;
+    flex-shrink: 1;
+}
+
+.intro img {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-shrink: 1;
+}
+
+.intro div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 1 auto;
+}
+.intro .big-text {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.intro div button {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #EDDCD2;
+    color: black;
+    border-radius: 8px;
+    font-weight: 900;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info .testimonial {
+    background-color: #DDBEA9;
+}
+
+.info .subcontent {
+    display: flex;
+    
+}
+
+.signup {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    padding: 16px;
+}
